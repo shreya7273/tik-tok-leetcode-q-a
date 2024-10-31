@@ -1,7 +1,6 @@
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         
-        
         if not strs:
             return ""
        
@@ -15,5 +14,4 @@ class Solution:
                 if not prefix:
                     return ""
         
-
         return prefix
